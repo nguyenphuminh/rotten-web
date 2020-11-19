@@ -8,11 +8,7 @@ rt('.quote').typing({
 });
 
 rt('.container').style(`
-	height: ${window.innerHeight/100*50}px;
-	min-height: ${window.innerHeight/100*50}px;
-	min-width: 100%;
-	width: 100%;
-	margin-top: 7%;
+	margin-top: 5%;
 `);
 
 rt('.spin').rotate(1,{
